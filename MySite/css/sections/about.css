@@ -1,0 +1,31 @@
+.hobby__galeria {
+  padding: 50px 0;
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes powiększenie {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.3);
+    }
+  }
+  
+  .hobby__galeria img {
+    width:350px;
+    height: 600px;
+    padding: 35px;
+    padding-left: 50px;
+    animation: powiększenie 0.5s ease-in-out; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .hobby__galeria img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+  

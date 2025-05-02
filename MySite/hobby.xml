@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./XMLSchema1.xsd">
+    <hobbys>
+        <hobby>
+            <name>Taniec Towarzyski</name>
+            <description>Tańcem Towarzyskim zajmuję się od5rokużycia.Uwielbiamtorobićwięcnatreningiuczęszczam3razywtygodniu.Jesttodlamniepołączeniezdrowegotrybużyciaorazdobrejzabawy.</description>
+            <image source="https://cdn.galleries.smcloud.net/t/galleries/gf-yARg-7Dko-6Eox_taniec-towarzyski-podzial-i-charakterystyka-tancow-towarzyskich-1920x1080-nocrop.jpg">
+                <title>PassoDoble</title>
+            </image>
+        </hobby>
+        <hobby>
+            <name>Perkusja</name>
+            <description>NaPerkusjigramjużod12lat.Jesttoponiekąduzupełnieniemojegotańcawktórymmuzykarównieżodgrywaważnąrolę.</description>
+            <image source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8oJMw1rc8DDv6cF2u-nBFPYE_RXHoI2SZmAAU">
+                <title>Perkusja</title>
+            </image>
+        </hobby>
+        <hobby>
+            <name>Gotowanie</name>
+            <description>Gotowaniemzajmujęsięrównieżodnajmłodszego.Chwilespędzoneprzytymsądlamnieczymśodkrywczymjakismacznym:).</description>
+            <image source="https://kuchnialidla.pl/img/PL/587x330/28f1eb77911c-39dc8d46cbba-kw42-lidl-homar-w-sosie-maslano-pomaranczowym-z-marynowana-kapusta-stozkowa.webp">
+                <title>Smażony Homar</title>
+            </image>
+        </hobby>
+    </hobbys>
+    <informations>
+        <information extra="no">
+            <name>Taniectowarzyski</name>
+            <description>Mojeulubionezajęcieorazsportktóryuprawiamod12lat</description>
+        </information>
+        <information extra="no">
+            <name>Perkusja</name>
+            <description>Coścouwielbiamrobićwwolnymczasie.Wtymrokukończę2stopieńszkołymuzycznej.</description>
+        </information>
+        <information extra="no">
+            <name>Gotowanie</name>
+            <description>Gotowaćlubiębardzoponieważlubięjeśćdobrejedzenie.</description>
+        </information>
+        <extraInformation extra="yes">                           
+               <name>Taniec</name>
+               <description>InformacjęotańcuTowarzyskim</description>
+                 <link source="https://pl.wikipedia.org/wiki/Taniec_towarzyski" ></link>
+            </extraInformation>
+            <extraInformation extra="yes">
+                <name>Perkusja</name>
+                <description>InformacjęnatematPerkusji</description>
+                <link source="https://pl.wikipedia.org/wiki/Perkusja" ></link>
+            </extraInformation>
+            <extraInformation extra="yes">
+                <name>Gotowanie</name>
+                <description>InformacjęnatematPerkusji</description>
+                <link source="https://www.mojegotowanie.pl/artykul/8-krokow-do-tego-by-gotowac-lepiej" ></link>
+            </extraInformation>
+    </informations>
+    <interactions>
+        <interaction mocna="no">
+            <name>Zmianakolorutła</name>
+        </interaction>
+        <interaction mocna="yes">
+            <name>Resizable</name>
+        </interaction>
+        <interaction mocna="yes">
+            <name>Draggable</name>
+        </interaction>
+        <interaction mocna="no">
+            <name>Przejdźnagóręstrony</name>
+        </interaction>
+    </interactions>
+    <formularz długi="yes">
+        <element>
+            <name>Imię</name>
+        </element>
+        <element>
+            <name>Nazwisko</name>
+        </element>
+        <element>
+            <name>Płeć</name>
+        </element>
+        <element>
+            <name>Przedział wiekowy</name>
+        </element>
+        <element>
+            <name>Ulubione hobby</name>
+        </element>
+        <element>
+            <name>Ulubione instrumenty</name>
+        </element>
+        <element>
+            <name>O czym użytkownik chce więcej usłyszeć</name>
+        </element>
+        <element>
+            <name>Ulubione danie</name>
+        </element>
+        <element>
+            <name>Opinia użytkownika</name>
+        </element>
+        <element>
+            <name>Wgranie plików</name>
+        </element>
+        <element>
+            <name>Zatwierdź</name>
+        </element>
+        <element>
+            <name>Resetuj</name>
+        </element>
+    </formularz>
+    <Galleria>
+        <image temat="Taniec" numer="1" source="https://scontent.fpoz4-1.fna.fbcdn.net/v/t1.15752-9/368359542_6991113584282517_6336954450948896957_n.jpg?_nc_cat=109=8cd0a2=7tS8emvQzwIAX9S3aI=scontent.fpoz4-1.fnaAdQMzNF3R4LHDCoQMhowi7atU2KNrmIfJZtg0h0NJH8kQw"/>
+        <image temat="Taniec" numer="2" source="https://scontent.fpoz4-1.fna.fbcdn.net/v/t1.15752-9/368099466_815712853663669_7152934114617225867_n.jpg?_nc_cat=109=8cd0a2=GG9HG9vzuWIAX8MxJw=scontent.fpoz4-1.fna"/>
+        <image temat="Taniec" numer="3" source="https://scontent.fpoz4-1.fna.fbcdn.net/v/t1.15752-9/371510771_558916039736334_6547397836796777977_n.jpg?_nc_cat=102=8cd0a2_X7qDKMAX_qOED5=scontent.fpoz4-1.fna"/>
+        <image temat="Perkusja" numer="4" source="./Assets/perkusja.webp"/>
+        <image temat="Perkusja" numer="5" source="./Assets/marimba.jpg"/>
+        <image mocna="no" temat="Gotowanie" numer="6" source="./Assets/brownie.jpg"/>
+    </Galleria>
+    <DaneKontaktowe>
+        <introduction> Zapraszam do kontaktu ze mną za pomocą tego e-maila: mateusz.dobry5@wp.pl</introduction>
+        <formularz>
+            <element>
+                <name>Podaj e-mail</name>
+            </element>
+        </formularz>
+    </DaneKontaktowe>
+    <zakonczenie data="2023">
+        <name>Mateusz</name>
+    </zakonczenie>
+</strona>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Hobby</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sections/header.css">
+    <link rel="stylesheet" href="./css/sections/hobby.css">
+    <link rel="stylesheet" href="./css/sections/form.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sections/footer.css">
+    <link rel="stylesheet" href="./css/sections/append.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+   <style>
+    #resizable { width: 150px; height: 150px; padding: 0.5em; }
+    #resizable h3 { text-align: center; margin: 0; }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#resizable" ).resizable();
+    } );
+    </script>
+    <noscript>
+        <style>
+        .header__links-PC {
+            display:flex;
+            justify-content: space-between;
+        }
+        .burger {
+            display:none;
+    
+        }
+        .append__container{
+            display: none;
+        }
+        .hobby__tytul h2 {
+        color: var(--text2);
+        display: block;
+        }
+        .przycisk{
+            display:none;
+        }
+        </style>
+         </noscript>
+</head>
+<body>
+
+    <div class="stronka" >
+        <header>
+            <div class="header__logo" >
+                <a href="./index.html">
+                    <img src="./Assets/LogoMenu.png" alt="Logo" class="header__logo" id="logo">
+                </a>
+                 <div class="header__links">
+                    <ul>
+                        <li><a href="#galeria">Powiększanie</a></li>
+                        <li><a href="#interakcja">Interakcja</a></li>
+                    </ul>
+                 </div>
+            </div>
+            <nav class="header__links-PC">
+                <ul>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="about.html">Galeria</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__links-Mobile">
+                <ul>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="about.html">Galeria</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <i style="color: #fff;" class="ri-menu-line"></i>
+            </div>
+        </header>
+    
+        <main>
+            <section id="hobby">
+                <div class="hobby__tytul">
+                    <h1>Moje Hobby</h1>
+                    <h2>Włącz Skrypty</h2>
+                    <span class="przycisk">Zmiana tła</span>
+                </div>
+                <div class="hobby__taniec hobby__container">
+                    <div class="hobby__taniec-text">
+                        <h1>Teniec Towarzyski</h1>
+                       <p>Tańcem Towarzyskim zajmuję się od 5 roku życia. Uwielbiam to robić więc na treningi uczęszczam 3 razy w tygodniu.Jest to dla mnie połączenie zdrowego trybu życia oraz dobrej zabawy.</p>
+                       <div class="hobby__btn"><a href="hobby.html">Zobacz więcej</a></div>
+                    </div>
+                    <div class="hobby__taniec-zdjecie">
+                        <figure>
+                            <img src="https://www.dancefactorybristol.com/wp-content/uploads/2013/08/11-1.jpg" alt="zdjecie">
+                            <figcaption style="color: var(--text2);">Taniec Passo Doble</figcaption>
+                          </figure>
+                    </div>
+                </div>
+                <div class="hobby__perkusja hobby__container">
+                    <div class="hobby__perkusja-text">
+                        <h1>Perkusja</h1>
+                        <p>Na Perkusji gram już od 12 lat.Jest to poniekąd uzupełnienie mojego tańca w którym muzyka również odgrywa ważną rolę. </p>
+                        <div class="hobby__btn"><a href="hobby.html">Zobacz więcej</a></div>
+                    </div>
+                    <div class="hobby__perkusja-zdjecie">
+                        <figure>
+                            <img src="https://img.freepik.com/darmowe-zdjecie/zestaw-perkusyjny-na-ciemnym-tle-z-oswietleniem-scenicznym-kopia-przestrzen_169016-14183.jpg?ga=GA1.1.1261812422.1741101353&semt=ais_hybrid&w=740" alt="zdjecie">
+                            <figcaption style="color: var(--text2);">Perkusja</figcaption>
+                          </figure>
+                    </div>
+                </div>
+                <div class="hobby__gotowanie hobby__container">
+                    <div class="hobby__gotowanie-text">
+                        <h1>Gotowanie</h1>
+                        <p>Gotowaniem zajmuję się również od najmłodszego. Chwile spędzone przy tym są dla mnie czymś odkrywczym jak i smacznym :).</p>
+                        <div class="hobby__btn"><a href="hobby.html">Zobacz więcej</a></div>   
+                    </div>
+                    <div class="hobby__gotowanie-zdjecie">
+                        <figure>
+                            <img src="https://kuchnialidla.pl/img/PL/587x330/28f1eb77911c-39dc8d46cbba-kw42-lidl-homar-w-sosie-maslano-pomaranczowym-z-marynowana-kapusta-stozkowa.webp" alt="zdjecie">
+                            <figcaption style="color: var(--text2);">Smażony Homar</figcaption>
+                          </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="galeria">
+                <div style="color:var(--text2); font-size: 25px; align-items: center;" >
+                    Galeria
+                </div>
+            <div>
+                <img id="resizable" class="ui-widget-content" style="background-color: var(--secondary2);" src="https://testy.creativedance.pl/wp-content/uploads/2019/01/TANIEC_SPORTOWY-1.jpg" alt="zdj">
+            </div>
+            </section>
+          
+            <section class="append">
+                <div style="color: var(--text2);font-size: 25px; align-items: center;">
+                    Przesuwanie obrazka
+                </div>
+                <div id="draggable" class="append__container">
+                    <div class="append__container-btn" id="interakcja">
+                        <span>Kliknij mnie</span>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="form">
+                <h1>Ankieta</h1>
+                <form action="/action.php" method="post">
+
+                    <div class="form__name-container">
+                        <div class="form__input-name">
+                            <label for="imie">Imie</label>
+                            <input type="text" name="name" value="Podaj imię" id="imie">
+                        </div>
+                        <div class="form__input-surname">
+                            <label for="nazwisko">Nazwisko</label>
+                            <input type="text" name="name" value="Podaj nazwisko" id="nazwisko">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <span>Płeć:</span>
+                        <div>
+                            <label for="male">Mężczyzna</label>
+                            <input type="radio" name="gender" id="male" value="male" checked>
+                        </div>
+                        <div>
+                            <label for="female">Kobieta</label>
+                            <input type="radio" name="gender" id="female" value="female" >
+                        </div>
+                    </div>
+                    <br>
+                    <label for="wybor">Twój przedział wiekowy:</label>
+                    <select id="wybor" name="wybor">
+                      <option value="opcja1">0-18</option>
+                      <option value="opcja2">18-35</option>
+                      <option value="opcja3">35...</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div class="form__najlepsze">
+                        <div class="form__najlepsze-title">Które hobby ci się podobały?</div>
+                        <div>
+                            <span class="form__najlepsze-text">Taniec Towarzyski</span>
+                            <input type="checkbox" name="Taniec Towarzyski" value="taniec" checked>
+                            <span class="form__najlepsze-text">Gra na Perkusji</span>
+                            <input type="checkbox" name="Gra na Perkusji" value="perkusja">
+                            <span class="form__najlepsze-text">Gotowanie</span>
+                            <input type="checkbox" name="Gotowanie" value="gotowanie">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form__najlepsze">
+                        <div class="form__instrumenty-title">Zaznacz ulubione instrumenty perkusyjne</div>
+                        <div>
+                            <span class="form__klasycznaT">Werbel</span>
+                            <input type="checkbox" name="klasyczna" checked>
+                            <span class="form__klasycznaN">Ksylofon</span>
+                            <input type="checkbox" name="klasyczna">
+                            <span class="form__klasycznaN">Kotły</span>
+                            <input type="checkbox" name="klasyczna">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form__propozycje">
+                        <label class="form__propzycje-title" for="propozycje">O czym byś chciał/a więcej usłyszeć</label>
+                        <br>
+                        <input type="text" name="danie" id="propozycje" value="pisz tutaj">
+                    </div>
+                    <br>
+                    <div class="form__ulubione_danie">
+                        <label class="form__ulubione_danie-title" for="danie">Jakie jest twoje ulubione danie</label>
+                        <input type="text" name="danie" id="danie" value="wpisz swoje ulubione danie">
+                    </div>
+                    <br>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+                        <circle cx="12" cy="12" r="10" fill="yellow"/>
+                        <ellipse cx="8" cy="11" rx="1.5" ry="1" fill="black"/>
+                        <ellipse cx="16" cy="11" rx="1.5" ry="1" fill="black"/>
+                        <path d="M7.5 15.5c2 1 4 1 5.5-0.5" fill="transparent" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <div>
+                        <textarea name="text" id="text" cols="30" rows="10">Podziel się swoją opinią
+                        </textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <span>Dodaj pliki:</span>
+                        <input type="file" name="pliki">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__text">       
+                <p>© all rights reserved 2023</p>             
+            </div>
+            <div class="footer__przycisk">
+                <a href="#logo">Idź na górę</a>
+            </div>
+            <div class="footer__links">
+                <ul>
+                    <li><a href="https://www.instagram.com/mateusz_dobry_/"><i class="ri-instagram-line"></i></a></li>
+                    <li><a href="https://www.facebook.com/mateusz.dobry.3?locale=pl_PL"><i class="ri-facebook-box-fill"></i></a></li>
+
+                </ul>
+            </div>
+        </footer>
+    </div>   
+
+    <script type="module" src="./script.js">
+    </script>
+   
+</body>
+
+</html>
